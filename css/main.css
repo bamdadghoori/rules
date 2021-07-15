@@ -1,0 +1,369 @@
+@font-face {
+    font-family: Yekan;
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.eot?#iefix') format('embedded-opentype'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.woff') format('woff'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: Yekan;
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.woff') format('woff'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: Sahel;
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel.woff') format('woff'),
+         url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: Sahel;
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel-Bold.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel-Bold.woff') format('woff'),
+         url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+
+html,body{
+
+    overflow-x: hidden;
+}
+body{
+    /* font-family: yekan; */
+    /* overflow-y: scroll; */
+}
+nav{
+    direction: rtl;
+    /* float: right; */
+    width: 100%;
+    height: 10vh;
+    font-family: sahel;
+    background-color: #025928;
+    color:white;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-nav{
+    position: absolute;
+    right: 6vw;
+}
+.navbar-brand{
+    color: white !important;
+}
+nav .form-inline{
+    position: absolute;
+    left: 26vw;
+}
+.second-nav{
+    background-color:#f5f7fb ;
+    margin-top: 2vh;
+    width: 60vw;
+    left: 20vw;
+    border-radius: 10px;
+    border: #025928 solid 1px;
+    box-shadow: 1px 1px 5px #025928;
+}
+.second-nav li:last-child{
+    /* margin-right: 25vw; */
+}
+/* div[dir="rtl"] input[type="radio"]+label, div[dir="rtl"] select option {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: right;
+}  */
+/* .fa-bullhorn{
+    position: absolute;
+    left: 20vw;
+    cursor: pointer;
+}
+.fa-bullhorn:hover{
+    opacity: 0.8;
+}
+.fa-shopping-cart{
+    position: absolute;
+    left: 15vw;
+} */
+.bullhorn{
+    position: absolute;
+    left:-15vw;
+    /* border-left: solid; */
+}
+.shopping-cart{
+    position: absolute;
+    left:-22vw
+}
+.register{
+position: absolute;
+left: -42vw;
+}
+.login{
+    position: absolute;
+    left: -35vw;
+
+}
+.login a{
+    /* width: 10vw; */
+}
+.nav-item select{
+    padding:5px;
+    border-radius: 5px;
+    margin-left: 1vw;
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:url("../img/down-chevron.png") ; */
+}
+.search-section{
+    position: relative;
+    direction: rtl;
+    right: 30vw;
+    margin-top: 4vh;
+}
+.search-section input{
+    width: 40vw !important;
+}
+.search-section h3{
+    margin-right: 6vw;
+    
+    font-family: sahel;
+    font-size: 4vh;
+    font-weight: bold;
+}
+#search-button{
+    height: 6vh;
+}
+.models{
+    direction: rtl;
+    padding: 9px;
+    margin-top: 5vh;
+}
+.models img{
+    width: 17.4vw;
+    border-radius: 5px;
+}
+.model{
+    /* border: solid; */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #c1ffeb;
+    font-family: yekan;
+    font-size: 3vh;
+    box-shadow: #025928 2px 2px 5px;
+    
+}
+.model-title{
+    /* color: #67c4b0; */
+    text-align: center;
+    margin-top: 1vh;
+    color: #025928;
+}
+.model-volume{
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 2.5vh;
+    color: #d96704;
+}
+.large-image{
+ position: absolute;
+ padding-top: 1px;
+ top: 5vh;
+ right: 20vw;
+ z-index: 999;
+ display: none;
+ border-radius: 5px;
+ background-color: #c1ffeb;
+ font-family: yekan;
+ font-size: 3vh;
+ box-shadow: #025928 2px 2px 5px;
+ background-color: #c1ffeb;
+}
+.large-image-2{
+    position: absolute;
+ padding-top: 1px;
+ top: 5vh;
+ right: -34.5vw;
+ z-index: 999;
+ display: none;
+ border-radius: 5px;
+ background-color: #c1ffeb;
+ font-family: yekan;
+ font-size: 3vh;
+ box-shadow: #025928 2px 2px 5px;
+ background-color: #c1ffeb;
+}
+.large-image img,.large-image-2 img{
+    width:35vw;
+    height: 37vh;
+}
+.paginationjs{
+    position: relative;
+    left: 38vw;
+ margin-top: 4vh;
+}
+.paginationjs-pages{
+    box-shadow: 1px 1px 5px #025928;
+    border-radius: 5px;
+    direction: rtl;
+}
+.paginationjs ul{
+    direction: rtl;
+}
+.paginationjs ul li{
+    /* background-color:#d96704; */
+    background-color: #c1ffeb;
+    float: right !important;
+    font-family: yekan;
+   
+}
+.paginationjs .paginationjs-pages li a{
+    background-color: #c1ffeb;
+    font-size: 3vh;
+}
+.paginationjs .paginationjs-pages li.active>a {
+    height: 30px;
+    line-height: 30px;
+    
+    background-color:#d96704;
+    color: #fff;
+}
+/* footer */
+footer{
+    direction: rtl;
+    width: 100%;
+    background-color:#025928 !important ;
+    font-family: yekan;
+    margin-top: 5vh;
+    color: white;
+}
+.subscribe-div-button{
+    position: relative;
+    left: 0vw;
+    top: 2vh;
+    font-family: yekan;
+    
+}
+.subscribe input{
+    border-radius: 5px;
+   padding: 5px;
+   width: 13.7vw;
+}
+.term-of-use{
+    font-family: yekan;
+    direction: rtl;
+    text-align: right;
+    position: relative;
+    right: 5.5vw;
+    width: 15vw;
+}
+.term-of-use a{
+    text-decoration: underline !important;
+   cursor: pointer;
+   color: #007bff !important;
+}
+.subscribe-div-button .btn{
+    width: 13.7vw;
+    font-size: 2.5vh !important;
+    font-weight: bold;
+}
+footer .text-uppercase{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+.subscribe h6{
+    position: relative;
+    bottom: 0.5vh;
+    /* right: 2vw; */
+    right: 2.7vw;
+}
+.description{
+    font-family: sahel;
+    font-weight: bold;
+}
+
+.floating-label {
+    font-family:yekan;
+    font-size: 2.5vh;
+    color: #212529;
+    position: absolute;
+    pointer-events: none;
+    top: 1vh;
+    left: 10vw;
+    width: fit-content;
+    transition: all 0.1s ease;
+    
+}
+input:focus ~ .floating-label {
+    position: absolute;
+    top: -3.5vh;
+    bottom: 0px;
+    left:10vw;
+    /* font-size: 11px; */
+    opacity: 1;
+    color: #212529;
+    font-family: yekan;
+     
+}
+/* range slider */
+#slider {
+    width: 10vw;
+    /* margin-top: 20px; */
+    position: relative;
+    /* bottom: 10px;
+    left:30vw; */
+    z-index: 999;
+    top:-3vh
+  }
+  
+  .ui-widget-content {
+    height: 4px;
+    background-color: #b7b7b7;
+    border: none;
+    position: relative;
+  }
+  
+  .ui-widget-header {
+    background-color: #214472;
+    position: absolute;
+    height: 100%;
+  }
+  
+  .ui-slider-handle {
+    top: -8px;
+    height: 20px;
+    width: 20px;
+    background-color: #214472;
+    border-radius: 10px;
+    border-color: #214472;
+    position: absolute;
+  }
+  #min,#max{
+      color: #025928;
+      position: relative;
+      top:-3vh;
+  }
+  #min{
+      left:-8vw;
+      
+  }
+  #max{
+       left:3vw;
+  }
+  .div-price{
+    color: #025928;
+    top: -2vh;
+    position: relative;
+  }
+  .rs{
+      right:2vw
+  }

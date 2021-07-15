@@ -1,0 +1,411 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link type="text/css" rel="stylesheet" href="vendor\bootstrap\css\bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.4/pagination.css"/>
+    <link type="text/css" rel="stylesheet" href="css\main.css">
+</head>
+<body>
+<!--  
+  <span id="min"></span>
+  <span id="max"></span>
+
+<div id="slider"></div> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">3dcadeh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"
+                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">مدل های 3d</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"
+              id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">پروژه های دورکاری 3d</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                فروش مدل های 3d
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"
+                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">مهمات برای کسب و کار</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item bullhorn">
+                <a class="nav-link" href="#">تخفیف ویژه<i class="fas fa-bullhorn"></i></a>
+              </li>
+              
+              <li class="nav-item shopping-cart">
+                <a class="nav-link" href="#">سبد خرید<i class="fas fa-shopping-cart"></i></a>
+              </li>
+             
+              <li class="nav-item login">
+                <a class="nav-link" href="#">ورود<i class="fa fa-sign-in-alt"></i></a>
+              </li>
+              <li class="nav-item register">
+                <a class="nav-link" href="#">ثبت نام<i class="fa fa-user-plus"></i></a>
+              </li>
+          </ul>
+         
+        
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light second-nav">
+       
+    
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item ">
+              <div class="rs">
+              
+                قیمت 
+              
+              <span id="min"></span>
+            
+  <span id="max"></span>
+
+<div id="slider"></div>
+</div>
+            </li> -->
+            <li class="nav-item ">
+              <div style="direction: rtl;">
+                <!-- selsect haye boot strapi ro nemishe rtl kard -->
+                  <select>
+                    <option selected >ساختار</option>
+                    <option>چند شماری</option>
+                    <option></option>
+                  </select>
+                
+            </li>
+             
+            <li class="nav-item ">
+              <div style="direction: rtl;">
+                <!-- selsect haye boot strapi ro nemishe rtl kard -->
+                  <select>
+                    <option >چند شماری</option>
+                    <option></option>
+                  </select>
+                
+            </li>
+             
+            <li class="nav-item ">
+              <div style="direction: rtl;">
+                <!-- selsect haye boot strapi ro nemishe rtl kard -->
+                  <select>
+                    <option selected>گواهی</option>
+                    <option></option>
+                  </select>
+                
+            </li>
+             
+            <li class="nav-item ">
+              <div style="direction: rtl;">
+                <!-- selsect haye boot strapi ro nemishe rtl kard -->
+                  <select>
+                    <option selected>ویژگی</option>
+                    <option></option>
+                  </select>
+                
+            </li>
+             
+            <li class="nav-item ">
+              <div style="direction: rtl;">
+                <!-- selsect haye boot strapi ro nemishe rtl kard -->
+                  <select>
+                    <option selected>هماهنگ ترین</option>
+                    <option></option>
+                  </select>
+                
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="search-section">
+        <h3>می توانید مدل مورد نظرتان را جستجو کنید:</h3>
+        <div>
+         <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="جستجوی مدل های 3d" aria-label="Search">
+            <button id="search-button" type="button" class="btn btn-primary">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </form>
+         
+      </div>
+      <div class="container">
+      <div class="row models">
+        <!-- <div class="col-md-3 ">
+          <div class="model">
+          <div>
+            <img class="small-image" src="img\italian-maple-3d-model-obj-mtl-3ds-fbx-3dm-dwg.jpg">
+          </div>
+          <div class="large-image">
+            <img src="img\italian-maple-3d-model-obj-mtl-3ds-fbx-3dm-dwg.jpg">
+            <div class="model-title">
+              <span>مدل سه بعدی درخت</span>
+            </div>
+            <div class="model-volume">
+              <span>حجم فایل با متریال 21 مگابایت</span>
+            </div>
+          </div>
+          <div class="model-title">
+            <span>مدل سه بعدی درخت</span>
+          </div>
+          <div class="model-volume">
+            <span>حجم فایل با متریال 21 مگابایت</span>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="model">
+          <div>
+            <img class="small-image" src="img\italian-maple-3d-model-obj-mtl-3ds-fbx-3dm-dwg.jpg">
+          </div>
+          <div class="large-image">
+            <img src="img\italian-maple-3d-model-obj-mtl-3ds-fbx-3dm-dwg.jpg">
+            <div class="model-title">
+              <span>مدل سه بعدی درخت</span>
+            </div>
+            <div class="model-volume">
+              <span>حجم فایل با متریال 21 مگابایت</span>
+            </div>
+          </div>
+          <div class="model-title">
+            <span>مدل سه بعدی درخت</span>
+          </div>
+          <div class="model-volume">
+            <span>حجم فایل با متریال 21 مگابایت</span>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="model">
+          <div>
+            <img class="small-image" src="img\italian-maple-3d-model-obj-mtl-3ds-fbx-3dm-dwg.jpg">
+          </div>
+          <div class="large-image-2">
+            <img src="img\italian-maple-3d-model-obj-mtl-3ds-fbx-3dm-dwg.jpg">
+            <div class="model-title">
+              <span>مدل سه بعدی درخت</span>
+            </div>
+            <div class="model-volume">
+              <span>حجم فایل با متریال 21 مگابایت</span>
+            </div>
+          </div>
+          <div class="model-title">
+            <span>مدل سه بعدی درخت</span>
+          </div>
+          <div class="model-volume">
+            <span>حجم فایل با متریال 21 مگابایت</span>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="model">
+          <div>
+            <img class="small-image" src="img\italian-maple-3d-model-obj-mtl-3ds-fbx-3dm-dwg.jpg">
+          </div>
+          <div class="large-image-2">
+            <img src="img\italian-maple-3d-model-obj-mtl-3ds-fbx-3dm-dwg.jpg">
+            <div class="model-title">
+              <span>مدل سه بعدی درخت</span>
+            </div>
+            <div class="model-volume">
+              <span>حجم فایل با متریال 21 مگابایت</span>
+            </div>
+          </div>
+          <div class="model-title">
+            <span>مدل سه بعدی درخت</span>
+          </div>
+          <div class="model-volume">
+            <span>حجم فایل با متریال 21 مگابایت</span>
+          </div>
+        </div>
+        </div> -->
+      
+      
+        <!-- <div class="col-md-3 model">fasfd</div> -->
+        <!-- <div class="col-md-3 model">safds</div>
+        <div class="col-md-3 model">fdsf</div> -->
+      </div>
+      <div id="pagination"></div>
+    </div>
+             <!-- Footer -->
+            
+<footer class="text-center text-lg-start ">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>ما را در شبکه های اجتماعی دنبال کنید</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div class="social-media">
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4 h6">
+            <i class="fa fa-gem me-3"></i>درباره ما
+          </h6>
+          <p class="description">
+         تیم 3dcadeh جهت ارائه ی تصاویر گرافیکی و سه بعدی از طراحان حرفه ای استفاده می کند.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+           فعالیت ها
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">دکوراسیون داخلی</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">چیدمان</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">آموزش</a>
+          </p>
+        
+        </div>
+        <!-- Grid column -->
+
+       
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            پل ارتباطی
+          </h6>
+          <p><i class="fa fa-home me-3"></i>ایران تهران</p>
+          <p>
+            <i class="fa fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <div class="col-md-3 subscribe">
+          <h6 class="text-uppercase fw-bold mb-4">
+             دریافت اشتراک خبرها
+          </h6>
+          <div style="position: relative;">
+         <form action=" ">
+         
+           <input type="text">
+           <label class="floating-label">ایمیل</label>
+           <div class="subscribe-div-button">
+           <button class="btn btn-primary">اشتراک</button>
+          </div>
+         </form>
+         </div>
+         <div class="term-of-use">اشتراک به منزله ی موافقت شما با<a> قوانین ما </a> است</div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    ارائه ای از تیم
+    <a class="text-reset fw-bold" href="https://rahkarmarket.com/">rahkarmarket.ir</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<!-- Footer -->
+    
+</body>
+
+<script src="vendor\jquery\jquery-3.2.1.min.js"></script>
+<script src="vendor\bootstrap\js\popper.min.js"></script>
+<script src="vendor\bootstrap\js\bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.4/pagination.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script  src="https://gist.github.com/sposmen/88f42a616c7a41fffa1efd764da021e4.js"></script> -->
+<script src="js\main.js"></script>
+</html>
