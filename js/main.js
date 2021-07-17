@@ -214,13 +214,13 @@ $(document).ready(function(){
     /* init widget */
 $("#slider").slider({
   range: true,
-  max:10000 ,
-  min:1000,
+  max:1000000 ,
+  min:100000,
   
   values: [100000, 1000000],
   slide: function(event, ui) {
     var min = "از"+ui.values[0]+"تومان";
-    var max ="تا"+ ui.values[1]+"تومان";
+    var max = "تا"+ui.values[1]+"تومان";
     $("#min").text(min);
     $("#max").text(max);
   }
@@ -231,6 +231,16 @@ $("#slider").slider({
 /* show initial values */
 var min = $("#slider").slider("values", 0);
 var max = $("#slider").slider("values", 1);
+min="از"+min+"تومان"
+max="تا"+max+"تومان"
 $("#min").text(min);
 $("#max").text(max);
+
+//active navbar
+$(".nav-link").click(function()
+  {
+ $(".nav-link").removeClass("active");
+ $(this).addClass("active");
+  
+})
 })

@@ -46,31 +46,61 @@ nav{
     width: 100%;
     height: 10vh;
     font-family: sahel;
-    background-color: #025928;
+    background-color: #23272c;
     color:white;
+}
+.dropdown-menu{
+    background-color: #23272c;
+    
+    height: fit-content;
+}
+.dropdown-menu a{
+    color: white;
+    direction: rtl;
+    float: right;
+    position: relative;
+    /* margin-right:-2vw ; */
+    width: inherit;
+}
+.dropdown-menu a:hover{
+    background-color: unset !important;
+    opacity: 0.8;
+    color: white !important;
 }
 .nav-link{
     color: white !important;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.nav-link.active{
+    background-color: #ce3c5c !important;
 }
 .navbar-nav{
     position: absolute;
-    right: 6vw;
+    right: 25vw;
 }
 .navbar-brand{
     color: white !important;
+    position: absolute;
+    left: -26vw;
+  top:1.5vh;
 }
 nav .form-inline{
     position: absolute;
-    left: 26vw;
+    /* left: 26vw; */
+    width: 32vw;
 }
 .second-nav{
     background-color:#f5f7fb ;
     margin-top: 2vh;
-    width: 60vw;
-    left: 20vw;
+    width: 75vw;
+    left: 12.5vw;
     border-radius: 10px;
     border: #025928 solid 1px;
     box-shadow: 1px 1px 5px #025928;
+}
+.second-nav ul{
+    margin-right: 25vw;;
 }
 .second-nav li:last-child{
     /* margin-right: 25vw; */
@@ -103,11 +133,11 @@ nav .form-inline{
 }
 .register{
 position: absolute;
-left: -42vw;
+left: -14vw;
 }
 .login{
     position: absolute;
-    left: -35vw;
+    left: -7vw;
 
 }
 .login a{
@@ -125,11 +155,12 @@ left: -42vw;
 .search-section{
     position: relative;
     direction: rtl;
-    right: 30vw;
-    margin-top: 4vh;
+    /* right: 10vw; */
+    margin-top: -6vh;
+    /* display: contents; */
 }
 .search-section input{
-    width: 40vw !important;
+    width: 20vw !important;
 }
 .search-section h3{
     margin-right: 6vw;
@@ -140,6 +171,7 @@ left: -42vw;
 }
 #search-button{
     height: 6vh;
+    background-color: #67c4b0;
 }
 .models{
     direction: rtl;
@@ -350,14 +382,15 @@ input:focus ~ .floating-label {
   #min,#max{
       color: #025928;
       position: relative;
-      top:-3vh;
+      
   }
   #min{
       left:-8vw;
-      
+      top:0vh;
   }
   #max{
        left:3vw;
+       top:-3.5vh;
   }
   .div-price{
     color: #025928;
@@ -365,5 +398,24 @@ input:focus ~ .floating-label {
     position: relative;
   }
   .rs{
-      right:2vw
+     position: relative;
+      /* top:2vh; */
+      color: black;
+     left: 3vw;
   }
+  .rs-price{
+      position: relative;
+      top:2.5vh;
+      font-size: 3vh;
+      right: 5vw;
+  }
+  .free{
+      color: black;
+      margin-right: 5vw;
+      z-index: 999;
+  }
+  .free input{
+      width: 4vw;
+      height: 4vh;
+  }
+  
