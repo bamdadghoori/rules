@@ -37,6 +37,7 @@ html,body{
     overflow-x: hidden;
 }
 body{
+    background-color: #f5f7fb;
     /* font-family: yekan; */
     /* overflow-y: scroll; */
 }
@@ -154,13 +155,16 @@ left: -14vw;
 }
 .search-section{
     position: relative;
-    direction: rtl;
+    direction: ltr;
+    right: 24vw;
     /* right: 10vw; */
     margin-top: -6vh;
     /* display: contents; */
 }
 .search-section input{
     width: 20vw !important;
+    /* direction: rtl; */
+    
 }
 .search-section h3{
     margin-right: 6vw;
@@ -170,8 +174,9 @@ left: -14vw;
     font-weight: bold;
 }
 #search-button{
-    height: 6vh;
+    height: 6.5vh;
     background-color: #67c4b0;
+    margin-left: -0.8vw;
 }
 .models{
     direction: rtl;
@@ -186,23 +191,23 @@ left: -14vw;
     /* border: solid; */
     padding: 10px;
     border-radius: 5px;
-    background-color: #c1ffeb;
+    background-color: #fff;
     font-family: yekan;
     font-size: 3vh;
-    box-shadow: #025928 2px 2px 5px;
+    box-shadow: #212529 2px 2px 5px;
     
 }
 .model-title{
     /* color: #67c4b0; */
     text-align: center;
     margin-top: 1vh;
-    color: #025928;
+    color: #23272c;
 }
 .model-volume{
     text-align: center;
     margin-top: 1vh;
-    font-size: 2.5vh;
-    color: #d96704;
+    font-size: 3vh;
+    color: #85428f;
 }
 .large-image{
  position: absolute;
@@ -212,11 +217,11 @@ left: -14vw;
  z-index: 999;
  display: none;
  border-radius: 5px;
- background-color: #c1ffeb;
+ background-color: #fff;
  font-family: yekan;
  font-size: 3vh;
- box-shadow: #025928 2px 2px 5px;
- background-color: #c1ffeb;
+ box-shadow: #212529 2px 2px 5px;
+ 
 }
 .large-image-2{
     position: absolute;
@@ -226,11 +231,11 @@ left: -14vw;
  z-index: 999;
  display: none;
  border-radius: 5px;
- background-color: #c1ffeb;
+ background-color: #fff;
  font-family: yekan;
  font-size: 3vh;
- box-shadow: #025928 2px 2px 5px;
- background-color: #c1ffeb;
+ box-shadow: #212529 2px 2px 5px;
+ 
 }
 .large-image img,.large-image-2 img{
     width:35vw;
@@ -251,20 +256,20 @@ left: -14vw;
 }
 .paginationjs ul li{
     /* background-color:#d96704; */
-    background-color: #c1ffeb;
+    background-color: #fff;
     float: right !important;
     font-family: yekan;
    
 }
 .paginationjs .paginationjs-pages li a{
-    background-color: #c1ffeb;
+    background-color: #fff;
     font-size: 3vh;
 }
 .paginationjs .paginationjs-pages li.active>a {
     height: 30px;
     line-height: 30px;
     
-    background-color:#d96704;
+    background-color:#23272c;
     color: #fff;
 }
 /* footer */
