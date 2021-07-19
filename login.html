@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vendor\bootstrap\css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/header-footer/header-footer.css"> 
+    <link rel="stylesheet" type="text/css" href="css\login\main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>login</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="search-section">
+          
+          <div>
+           <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="3dجستجوی مدل های " aria-label="Search">
+              <button id="search-button" type="button" class="btn btn-primary">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </form>
+           
+        </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#"
+                  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">مدل های 3d</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">تست</a>
+                    <a class="dropdown-item" href="#">تست</a>
+                   
+                    <a class="dropdown-item" href="#">تست</a>
+                  </div>
+                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"
+                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">پروژه های دورکاری 3d</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">تست</a>
+                  <a class="dropdown-item" href="#">تست</a>
+                  
+                  <a class="dropdown-item" href="#">تست</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  فروش مدل های 3d
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">تست</a>
+                  <a class="dropdown-item" href="#">تست</a>
+                 
+                  <a class="dropdown-item" href="#">تست</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#"
+                  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">مهمات برای کسب و کار</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">تست</a>
+                    <a class="dropdown-item" href="#">تست</a>
+                  
+                    <a class="dropdown-item" href="#">تست</a>
+                  </div>
+                </li>
+                <!-- <li class="nav-item bullhorn">
+                  <a class="nav-link" href="#">تخفیف ویژه<i class="fas fa-bullhorn"></i></a>
+                </li>
+                
+                <li class="nav-item shopping-cart">
+                  <a class="nav-link" href="#">سبد خرید<i class="fas fa-shopping-cart"></i></a>
+                </li> -->
+               
+                <li class="nav-item login">
+                  <a class="nav-link active"" href="#">ورود<i class="fa fa-sign-in-alt"></i></a>
+                </li>
+                <!-- <li class="nav-item register">
+                  <a class="nav-link" href="#">ثبت نام<i class="fa fa-user-plus"></i></a>
+                </li> -->
+                
+            </ul>
+           
+          
+          </div> 
+          <a class="navbar-brand" href="#">3dcadeh</a>
+        </nav>
+        <div class="p-3 mb-2 bg-danger text-white vali row">
+          <!-- <div class="valiWhole"></div>  -->
+         
+          <div class="valiWhole"></div>
+              <i class="fa fa-exclamation-triangle"></i>
+              </div> 
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+      
+          <!-- Icon -->
+          <div class="fadeIn first login-title">
+            ورود 
+          </div>
+      
+          <!-- Login Form -->
+          <form>
+              <div style="position: relative;" class="fadeIn second">
+            <input type="text" class="blur" id="mobile"  name="mobile" value="09">
+            <label class="floating-label ">تلفن همراه</label>
+            <div class="forcible">*</div>
+        </div>
+        <div style="position: relative;" class="fadeIn third">
+            <input type="text" id="password" class="blur" name="login" >
+            <label class="floating-label">رمز عبور</label>
+            <div class="forcible">*</div>
+        </div>
+            <input type="submit" class="fadeIn fourth buttonLoc" value="ورود">
+          </form>
+      
+          <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <a class="underlineHover" href="#">رمز عبور را فراموش کرده اید؟</a>
+            
+          </div>
+
+           <!-- Remind Passowrd -->
+           <div id="formFooter">
+             هنوز عضو نشده اید؟
+            <a class="underlineHover register-link" href="#">ثبت نام کنید</a>
+            
+          </div>
+      
+        </div>
+      </div> 
+</body>
+<script src="vendor\jquery\jquery-3.2.1.min.js"></script>
+<script src="vendor\bootstrap\js\popper.min.js"></script>
+<script src="vendor\bootstrap\js\bootstrap.min.js"></script>
+<script src="vendor\bootstrap\js\popper.min.js"></script>
+<script src="js/login/main.js"></script>
+</html>
