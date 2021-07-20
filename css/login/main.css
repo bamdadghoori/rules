@@ -407,7 +407,9 @@ input:focus ~ .floating-label {
   body{
     position: relative;
   }
-  
+  .blurLabel{
+    left: 50vw !important;
+  }
 }
 /* responsive miani */
 @media screen  and (min-width:600px) and (max-width:700px){
