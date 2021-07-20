@@ -438,6 +438,10 @@ input:focus ~ .floating-label {
   }
 }
 @media screen and (min-width:701px) and (max-width:992px) {
+  .vali{
+    top:20vh;
+    left:32vw;
+  }
   .floating-label{
     left:35vw;
   }
