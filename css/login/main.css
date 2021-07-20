@@ -373,7 +373,7 @@ input:focus ~ .floating-label {
 
   }
 }
-@media(min-width:800px){
+
   .blurLabel{
       top: -4vh !important;
       bottom: 0px !important;
@@ -384,7 +384,7 @@ input:focus ~ .floating-label {
       font-family: yekan;
 
   }
-}
+
 /*end of validation */
 
 /* responsive */
@@ -397,11 +397,74 @@ input:focus ~ .floating-label {
         top: -3vh;
   }
   .wrapper{
-    top:20vh
+    top:17vh
 }
 .vali{
+  /* position: relative; */
   top:20vh;
   left: 20vw;
 }
-
+  body{
+    position: relative;
+  }
+  
+}
+/* responsive miani */
+@media screen  and (min-width:600px) and (max-width:700px){
+  .vali{
+    top:27vh;
+    left:32vw;
+  }
+  .wrapper{
+    top:27vh;
+  }
+  body{
+    position: relative;
+  }
+  .floating-label{
+    left:52vw;
+  }
+  input:focus ~ .floating-label{
+    left:52vw;
+  }
+  input[type=text]{
+    font-size: 3vh;
+  }
+  .blurLabel{
+    left: 52vw !important;
+  }
+  footer{
+    margin-top: 28vh;
+  }
+}
+@media screen and (min-width:701px) and (max-width:992px) {
+  .floating-label{
+    left:35vw;
+  }
+  input:focus ~ .floating-label{
+    left:35vw;
+  }
+  input[type=text]{
+    font-size: 3vh;
+  }
+  .blurLabel{
+    left: 35vw !important;
+  }
+}
+@media screen and (min-width:993px) and (max-width:1100px){
+  input[type=submit]{
+    margin-top: 2vh;
+  }
+  input[type=text]{
+    font-size: 3vh;
+  }
+  /* .floating-label{
+    left:26vw;
+  } */
+  input:focus ~ .floating-label{
+    left:27vw;
+  }
+  .blurLabel{
+    left: 27vw;
+  }
 }
