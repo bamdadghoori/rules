@@ -53,8 +53,12 @@ nav{
 }
 .dropdown-menu{
     background-color: #23272c;
-    
+    width: 100%;
     height: fit-content;
+}
+ .first-drop{
+    width:8vw;
+    min-width:unset !important;
 }
 .dropdown-menu a{
     color: white;
@@ -63,11 +67,12 @@ nav{
     position: relative;
     /* margin-right:-2vw ; */
     width: inherit;
+    text-align: right;
 }
 .dropdown-menu a:hover{
-    background-color: unset !important;
-    opacity: 0.8;
-    color: white !important;
+    background-color: #ffff00 !important;
+    /* opacity: 0.8; */
+    color: black !important;
 }
 .nav-link{
     color: white !important;
@@ -191,7 +196,7 @@ footer p{
     font-weight: bold;
 }
     /* responsive */
-    @media(max-width:600px){
+    @media(max-width:590px){
         .search-section{
           
             margin-top: unset;
