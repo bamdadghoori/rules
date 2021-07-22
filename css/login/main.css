@@ -109,14 +109,16 @@
   
   
   /* FORM TYPOGRAPHY*/
-  
+ 
   input[type=button], input[type=submit], input[type=reset]  {
     background-color: #23272c;
     
     /* border: solid #23272c; */
     cursor: pointer;
     color: white;
-    padding: 15px 80px;
+    padding-right: 2vw !important;
+    padding-left: 2vw !important;
+    padding:.375rem .75rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -173,7 +175,9 @@
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
   }
-  
+  input[type=text]{
+    font-size:2vh;
+  }
   input[type=text]:focus {
     background-color: #fff;
     border-bottom: 2px solid #5fbae9;
