@@ -61,7 +61,7 @@
     /* min-height: 100%; */
     padding: 20px;
     position: relative;
-    top: 15vh;
+    top: 10vh;
   }
   
   #formContent {
@@ -110,7 +110,7 @@
   
   /* FORM TYPOGRAPHY*/
  
-  input[type=button], input[type=submit], input[type=reset]  {
+  input[type=button], input[type=submit], input[type=reset]{
     background-color: #23272c;
     
     /* border: solid #23272c; */
@@ -139,6 +139,7 @@
   #mobile{
     direction: ltr;
     text-align: left;
+    font-family:yekan;
   }
   
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
@@ -154,7 +155,7 @@
     transform: scale(0.95);
   }
   
-  input[type=text] {
+  input[type=text],input[type=password] {
     direction: rtl;
     background-color: #f6f6f6;
     border: none;
@@ -162,7 +163,7 @@
     padding: 7px 7px;
     text-align: right;
     text-decoration: none;
-    display: inline-block;
+    display: inlineblock;
     font-size: 16px;
     margin: 5px;
     width: 85%;
@@ -175,8 +176,12 @@
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
   }
-  input[type=text]{
-    font-size:2vh;
+  input[type=text],input[type=password]{
+    font-size:0.9rem;
+    margin-bottom:2vh;
+  }
+  .buttonLoc{
+    margin-top:5vh !important;
   }
   input[type=text]:focus {
     background-color: #fff;
@@ -186,9 +191,17 @@
   input[type=text]:placeholder {
     color: #cccccc;
   }
-  
-  
-  
+  input[type=checkbox] {
+    transform: scale(1.5);
+}
+  .form-check{
+    direction:rtl;
+    left:6vw;
+    font-family:yekan;
+  }
+  .form-check-input{
+    margin-right:-2vw;
+  }
   /* ANIMATIONS */
   
   /* Simple CSS3 Fade-in-down Animation */
@@ -414,6 +427,9 @@ input:focus ~ .floating-label {
   .blurLabel{
     left: 50vw !important;
   }
+  .form-check-input {
+    margin-right: -6vw;
+}
 }
 /* responsive miani */
 @media screen  and (min-width:600px) and (max-width:700px){
@@ -436,12 +452,18 @@ input:focus ~ .floating-label {
   input[type=text]{
     font-size: 3vh;
   }
+  input[type=password] {
+    font-size: 3vh;
+}
   .blurLabel{
     left: 52vw !important;
   }
   footer{
     margin-top: 28vh;
   }
+  .form-check-input {
+    margin-right: -3vw;
+}
 }
 @media screen and (min-width:701px) and (max-width:992px) {
   .vali{
@@ -457,9 +479,15 @@ input:focus ~ .floating-label {
   input[type=text]{
     font-size: 3vh;
   }
+  input[type=password] {
+    font-size: 3vh;
+}
   .blurLabel{
     left: 35vw !important;
   }
+  .form-check-input {
+    margin-right: -3vw;
+}
 }
 @media screen and (min-width:993px) and (max-width:1100px){
   input[type=submit]{
@@ -468,6 +496,9 @@ input:focus ~ .floating-label {
   input[type=text]{
     font-size: 3vh;
   }
+  input[type=password] {
+    font-size: 3vh;
+}
   /* .floating-label{
     left:26vw;
   } */

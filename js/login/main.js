@@ -34,10 +34,10 @@ $(document).ready(function(){
             $(".valiWhole").text("شماره تلفن همراه صحیح نیست")
             $("html,body").animate({scrollTop:0})
           }
-         else if($("#password").val().length<6){
+         else if($("#password").val().length<8){
             e.preventDefault();
             $(".vali").css("display","block")
-            $(".valiWhole").text("رمز عبور حداقل باید 6 رقم باشد")
+            $(".valiWhole").text("رمز عبور حداقل باید 8 رقم باشد")
             $("html,body").animate({scrollTop:0})
          }
         
