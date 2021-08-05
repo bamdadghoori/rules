@@ -47,13 +47,119 @@
     margin: 40px 8px 10px 8px; 
     color: #cccccc;
   }
+  .buttons{
+    top: 5vh;
+    position: relative;
+    right: 10vw;
+    width: 50vw;
+    float: right;
+    margin-bottom: 10vh;
+  }
+  .div-second-search-box{
+margin-right: -10vw;
+top: -0.2vh;
+  }
+   .button-new{
+     background-color: #23272c;
+   border-color: #23272c;
+    cursor: pointer;
+    color: white;
+    padding-right: 2vw !important;
+    padding-left: 2vw !important;
+    padding:.375rem .75rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 3vh;
+    font-family: yekan;
+    -webkit-box-shadow: 0 2px 3px 0 #23272c;
+    box-shadow: 0 2px 3px 0 #23272c;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+ /* margin-left: 2vw; */
+   }
+   .button-new:hover{
+    background-color: #23272c;
+    opacity: 0.9 !important;
+    border-color: #ffff00;
+   }
+   .second-searchbox{
+     display: contents;
+     margin-right: 2vw;
+    
+   }
+   .second-searchbox button{
+     position: relative;
+     left:0.4vw;
+     top:0.2vh;
+     /* box-shadow:0 2px 3px 0 #23272c ; */
+     height: 6vh !important;
+     box-shadow:0 1px 2px 0 #23272c ;
+     height: 6.2vh !important;
+   }
+   .second-searchbox input{
+     border-radius: 0px 05px 5px 0px;
+     /* z-index: 1; */
+     position: relative;
+     top: 0.2vh;
+     height: 6.2vh !important;
+     box-shadow:0 1px 2px 0 #23272c ;
+     /* outline: none; */
+     border: none;
+     border-radius: 5px;
+     font-family: yekan;
+     width: fit-content;
+     width: -moz-fit-content;
+     font-size: 2.5vh;
+   }
+  /* table */
+  .table-loc{
+    margin-top:10vh;
+    /* overflow: scroll; */
+    width: 80vw;
+    left: 10vw;
+    position: relative;
+    
+  }
+  .table-loc table{
+    direction: rtl;
+   overflow: hidden;
+   border-radius: 6px;
+    font-family: yekan;
+    box-shadow: 2px 2px 5px ;
+  }
+  .table th{
+    background-color: #23272c;
+    color: white;
+  }
+  .table-loc table th:first-child{
+    border-radius: 0 6px 0 0;
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+  }
+  .table-loc table th:last-child{
+    border-radius: 6px 0 0 0;
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+  }
+  .table td, .table th{
+    text-align: center;
+    font-family: yekan !important;
+  }
   
-  
-  
+/* end of table */
+.table-loc-after-vali{
+  margin-top: 25vh;
+}
+  .btn-warning{
+    background-color: #ffff00;
+    border-color: #ffff00;
+  }
   /* STRUCTURE */
   
   .wrapper {
-    display: flex;
+    display: none;
     align-items: center;
     flex-direction: column; 
     justify-content: center;
@@ -334,6 +440,7 @@ position: absolute;
     top: 9px;
     left: 24vw;
     width: fit-content;
+    
     transition: all 0.1s ease;
     
 }
@@ -372,11 +479,60 @@ input:focus ~ .floating-label {
     direction: rtl;
     width: fit-content;
    height: fit-content;
+   width: -moz-fit-content;
+   height: fit-content;
 }
 .valiWhole{
   float: right;
   width: fit-content;
+  width: -moz-fit-content;
  }
+ 
+ .vali-table{
+  left: 40vw;
+    top: 23vh;
+    position: relative;
+    display: none;
+    margin-bottom: -10vh;
+    font-family: yekan;
+    direction: rtl;
+    width: fit-content;
+   height: fit-content;
+   width: -moz-fit-content;
+   height: -moz-fit-content;
+}
+.valiWhole-table{
+  float: right;
+  width: fit-content;
+  width: -moz-fit-content;
+ }
+.non{
+  display: none !important;
+}
+ .table-sortable th {
+  /* cursor: pointer;
+  background: url(../../images/rules/danger-alert-svgrepo-com.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: right center; */
+  /* background-size: cover; */
+}
+
+/* .th-sort-asc ::after {
+  content: "\25b4" !important;
+}
+
+.table-sortable .th-sort-asc ::after {
+  content: "\25be";
+}
+
+.table-sortable .th-sort-asc ::after,
+.table-sortable .th-sort-asc ::after {
+  margin-left: 5px;
+} */
+
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {}
  @media(max-width:600px) {
         
   .blurLabel{
@@ -401,11 +557,34 @@ input:focus ~ .floating-label {
       font-family: yekan;
 
   }
-
+footer{
+  margin-top: 25.4vh;
+}
 /*end of validation */
 
 /* responsive */
 @media(max-width:600px){
+  .table-loc{
+    overflow: scroll;
+    direction: rtl;
+    margin-top: 40vh;
+  }
+  .buttons{
+    top:13vh;
+  }
+  .div-second-search-box{
+    display: flex;
+    margin-right: unset;
+    top:2vh;
+  }
+  .second-searchbox input{
+    padding-left: 2vw;
+    font-size: 2.3vh;
+  }
+  .vali-table{
+    left: 11vw;
+    top: 38vh;
+  }
   .floating-label{
     left:50vw;
   }
@@ -436,6 +615,12 @@ input:focus ~ .floating-label {
   .vali{
     top:27vh;
     left:32vw;
+  }
+  .vali-table{
+    left: 34vw;
+  }
+  .buttons{
+    right:13vw;
   }
   .wrapper{
     top:27vh;
@@ -470,6 +655,18 @@ input:focus ~ .floating-label {
     top:20vh;
     left:32vw;
   }
+  .div-second-search-box {
+    margin-right: -18vw;
+    top: 5vh;
+    display: flex;
+}
+.buttons{
+  margin-bottom: 12vh;
+}
+.second-searchbox input{
+  font-size: 2vh;
+  z-index: 999;
+}
   .floating-label{
     left:35vw;
   }
@@ -507,5 +704,13 @@ input:focus ~ .floating-label {
   }
   .blurLabel{
     left: 27vw;
+  }
+  .div-second-search-box{
+    margin-right: unset;
+    display: flex;
+    
+  }
+  .second-searchbox input{
+    font-size: 2vh;
   }
 }
