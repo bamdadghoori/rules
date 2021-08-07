@@ -127,7 +127,10 @@ display: flex;
    
   }
   .table-loc table td{
-    font-size: 2.5vh;
+    /* font-size: 2.2vh; */
+  }
+  .table-loc table th{
+    font-size: 2.2vh ;
   }
   .table-loc table{
     direction: rtl;
