@@ -1,4 +1,16 @@
 $(document).ready(function(){
+// console.log($("td:nth-child(4)").get(0))
+var arT=$("td:nth-child(4)").map(function(){
+    return $.trim($(this).text());
+
+}).get();
+  
+
+console.log(arT)
+
+$("td:nth-child(4)").each(function(){
+    $(this).text($(this).text().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+})
 
     $(".blur").blur(function(){
         if(!$(this).val()){

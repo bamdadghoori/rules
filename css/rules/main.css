@@ -51,13 +51,14 @@
     top: 5vh;
     position: relative;
     right: 10vw;
-    width: 50vw;
+    /* width: 50vw; */
     float: right;
     margin-bottom: 10vh;
   }
   .div-second-search-box{
-margin-right: -10vw;
+/* margin-right: -10vw; */
 top: -0.2vh;
+display: flex;
   }
    .button-new{
      background-color: #23272c;
@@ -99,6 +100,7 @@ top: -0.2vh;
      height: 6.2vh !important;
    }
    .second-searchbox input{
+     padding-left: 42vw;
      border-radius: 0px 05px 5px 0px;
      /* z-index: 1; */
      position: relative;
@@ -618,6 +620,7 @@ footer{
   }
   .vali-table{
     left: 34vw;
+    top:35vh
   }
   .buttons{
     right:13vw;
@@ -648,6 +651,16 @@ footer{
   }
   .form-check-input {
     margin-right: -3vw;
+}
+.div-second-search-box{
+  z-index: 999;
+}
+.table-loc-after-vali{
+  margin-top: 40vh;
+}
+.second-searchbox input{
+  font-size: 3vh;
+  padding-left: 3vw;
 }
 }
 @media screen and (min-width:701px) and (max-width:992px) {
@@ -706,7 +719,7 @@ footer{
     left: 27vw;
   }
   .div-second-search-box{
-    margin-right: unset;
+    margin-right: -10vw;
     display: flex;
     
   }
