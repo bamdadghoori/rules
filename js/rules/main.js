@@ -61,7 +61,13 @@ function sortTableByColumn(table, column, asc = true) {
     const rows = Array.from(tBody.querySelectorAll("tr"));
 
     const sortedRows = rows.sort((a, b) => {
+console.log(column)
+if(column==0){
+    const aColText = a.querySelector(`td:nth-child(${column + 1 })`).textContent.trim();
+    const bColText = b.querySelector(`td:nth-child(${column + 1 })`).textContent.trim();
 
+    return parseInt(aColText) > parseInt(bColText) ? (1 * dirModifier) : (-1 * dirModifier);
+}
         const aColText = a.querySelector(`td:nth-child(${column + 1 })`).textContent.trim();
         const bColText = b.querySelector(`td:nth-child(${column + 1 })`).textContent.trim();
 

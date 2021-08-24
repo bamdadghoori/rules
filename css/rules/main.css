@@ -31,8 +31,56 @@
          url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel-Bold.ttf') format('truetype');
     font-weight: bold;
   }
+  .wrapper{
+    background-color: #f6f6f6 !important;
+  }
+  .wrapper nav{
+    background-color: #23272c !important;
+    color: white !important;
+  }
+  .navbar-custom-menu > .navbar-nav > .dropdown > a{
+    color: white !important;
+  }
+  .wrapper .navbar-custom-menu .nav{
+    float: left;
+    margin-top: -3vh;
+  }
+  .nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus{
+    background-color: #ffff00;
+    color: #23272c !important;
+  }
+  .user-body .row .text-center{
+    left: unset;
+  }
+  .fa-gears{
+    color: #fff;
+  }
+  .main-footer{
+    margin-top: 10vh;
+  }
+  .close-aside{
+   position: relative;
+   float: left;
+   top:-5vh;
+   color:#fff;
+   left: 1vw;
+  }
+  .user-body{
+    /* margin-right: -22vw; */
+    padding-left: 10vw;
+  }
+  .user-body .row{
+    margin-right: unset;
+  }
+  .user-body .text-center{
+   
+  }
+  .sidebar-search{
+    margin: unset !important;
+    font-size: 2.5vh !important;
+  }
   a {
-    color: #23272c;
+    /* color: #23272c; */
     display:inline-block;
     text-decoration: none;
     font-weight: 400;
@@ -50,15 +98,20 @@
   .buttons{
     top: 5vh;
     position: relative;
-    right: 10vw;
+    right: 6vw;
     /* width: 50vw; */
     float: right;
     margin-bottom: 10vh;
+    font-family: yekan;
   }
   .div-second-search-box{
 margin-right: -0.5vw;
 top: -0.2vh;
 display: flex;
+  }
+  .btn-warning a{
+    color: #23272c;
+    font-family: yekan;
   }
    .button-new{
      background-color: #23272c;
@@ -102,7 +155,7 @@ display: flex;
      border-radius: 9px;
    }
    .second-searchbox input{
-     padding-left: 42vw;
+     padding-left: 30vw;
      border-radius: 0px 05px 5px 0px;
      /* z-index: 1; */
      position: relative;
@@ -121,8 +174,8 @@ display: flex;
   .table-loc{
     margin-top:10vh;
     /* overflow: scroll; */
-    width: 80vw;
-    left: 10vw;
+    width: 60vw;
+    right: 28vw;
     position: relative;
    
   }
@@ -160,25 +213,48 @@ display: flex;
   
 /* end of table */
 .table-loc-after-vali{
-  margin-top: 25vh;
+  top: 5vh;
+  margin-bottom: 55vh;
 }
   .btn-warning{
     background-color: #ffff00;
     border-color: #ffff00;
+   
+  }
+ .bg-danger{
+   background-color: #dc3545!important;
+   color: #fff !important;
+ }
+ .p-3 {
+  padding: 1rem!important;
+}
+.mb-2 {
+  margin-bottom: .5rem!important;
+}
+  .buttons .btn-warning{
+    box-shadow: 2px 2px 5px #23272c;
+    font-size: 2.5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+  
+  }
+  .buttons .btn-warning a{
+    color: #23272c;
+    font-weight: bold;
   }
   /* STRUCTURE */
   
-  .wrapper {
+  /* .wrapper {
     display: none;
     align-items: center;
     flex-direction: column; 
     justify-content: center;
     width: 100%;
-    /* min-height: 100%; */
+   
     padding: 20px;
     position: relative;
     top: 10vh;
-  }
+  } */
   
   #formContent {
     -webkit-border-radius: 10px 10px 10px 10px;
@@ -499,8 +575,8 @@ input:focus ~ .floating-label {
  }
  
  .vali-table{
-  left: 40vw;
-    top: 23vh;
+  right: 23vw;
+    top: 20vh;
     position: relative;
     display: none;
     margin-bottom: -10vh;
@@ -567,9 +643,7 @@ input:focus ~ .floating-label {
       font-family: yekan;
 
   }
-footer{
-  margin-top: 25.4vh;
-}
+
 /*end of validation */
 
 /* responsive */
