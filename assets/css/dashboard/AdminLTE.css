@@ -13,10 +13,13 @@ html,
 body {
   height: 100%;
 }
+<<<<<<< HEAD
 .wrapper nav {
   background-color: #23272c !important;
   color: white !important;
 }
+=======
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
 .layout-boxed html,
 .layout-boxed body {
   height: 100%;
@@ -32,7 +35,11 @@ body {
   height: 100%;
   position: relative;
   overflow-x: hidden;
+<<<<<<< HEAD
   overflow-y: hidden;
+=======
+  overflow-y: auto;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
 }
 .wrapper:before,
 .wrapper:after {

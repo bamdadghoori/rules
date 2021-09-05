@@ -116,6 +116,7 @@
       font-weight: 600;
       margin-right: 1vw;
   }
+<<<<<<< HEAD
   .activity-radio-group{
     margin-right: unset;
     margin-left: unset;
@@ -145,6 +146,12 @@
       transform: scale(1.5);
   }
   input[type=text],input[type=password],select,input[type=number] {
+=======
+  input[type=radio]{
+      transform: scale(1.5);
+  }
+  input[type=text],input[type=password],select {
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     direction: rtl;
     background-color: #f6f6f6;
     border: none;
@@ -164,16 +171,25 @@
     transition: all 0.5s ease-in-out;
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
+<<<<<<< HEAD
     font-family: yekan;
   }
   input[type=text],input[type=password],select,input[type=number]{
+=======
+  }
+  input[type=text],input[type=password],select{
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     font-size:2.5vh;
     margin-bottom:4vh;
   }
   .buttonLoc-register{
     margin-bottom:0vh !important;
   }
+<<<<<<< HEAD
   input[type=text]:focus,input[type=number]:focus {
+=======
+  input[type=text]:focus {
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     background-color: #fff;
     border-bottom: 2px solid #5fbae9;
   }
@@ -322,6 +338,7 @@ top: 2vh;
 position: absolute;
   
 }
+<<<<<<< HEAD
 .forcible-membership{
   /* content:"*"; */
 color: red;
@@ -346,6 +363,12 @@ position: absolute;
     font-family:yekan;
     font-size: 3vh;
     color: #0d0d0d;
+=======
+.floating-label {
+    font-family:yekan;
+    font-size: 3vh;
+    color: #cccccc;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     position: absolute;
     pointer-events: none;
     top: 9px;
@@ -367,8 +390,13 @@ input:focus ~ .floating-label {
 }
 .floating-label-downloads {
     font-family:yekan;
+<<<<<<< HEAD
     font-size: 2.5vh;
     color: #0d0d0d;
+=======
+    font-size: 3vh;
+    color: #cccccc;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     position: absolute;
     pointer-events: none;
     top: 9px;
@@ -389,6 +417,7 @@ input:focus ~ .floating-label-downloads {
     font-family: yekan;
     font-weight: 500;
 }
+<<<<<<< HEAD
 .blurLabel-downloads{
   top: -4vh !important;
   bottom: 0px !important;
@@ -407,6 +436,16 @@ input:focus ~ .floating-label-downloads {
     pointer-events: none;
     top: 9px;
     left: 21vw;
+=======
+.floating-label-membership-price {
+    font-family:yekan;
+    font-size: 3vh;
+    color: #cccccc;
+    position: absolute;
+    pointer-events: none;
+    top: 9px;
+    left: 24vw;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     width: fit-content;
     transition: all 0.1s ease;
     font-weight: 500;
@@ -415,13 +454,18 @@ input:focus ~ .floating-label-membership-price {
     position: absolute;
     top: -4vh;
     bottom: 0px;
+<<<<<<< HEAD
     left:21vw;
+=======
+    left:24vw;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     /* font-size: 11px; */
     opacity: 1;
     color: #404040;
     font-family: yekan;
      
 }
+<<<<<<< HEAD
 .blurLabel-membership-price{
   top: -4vh !important;
   bottom: 0px !important;
@@ -439,6 +483,16 @@ input:focus ~ .floating-label-membership-price {
     pointer-events: none;
     top: 9px;
     left:27.5vw;
+=======
+.floating-label-date {
+    font-family:yekan;
+    font-size: 2.5vh;
+    color: #cccccc;
+    position: absolute;
+    pointer-events: none;
+    top: 9px;
+    left:28vw;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     width: fit-content;
     width: -moz-fit-content;
     transition: all 0.1s ease;
@@ -449,6 +503,7 @@ input:focus ~ .floating-label-membership-price {
     top: -3vh;
     font-family: Yekan;
     font-size: 2.5vh;
+<<<<<<< HEAD
     left: 24.5vw;
     display: none;
   }
@@ -475,6 +530,15 @@ textarea:focus ~ .floating-label-discribes{
     top: -4vh !important;
     bottom: 0px !important;
     left:27.5vw !important;
+=======
+    left: 11vw;
+    display: none;
+  }
+  .blurLabel-date{
+    top: -4vh !important;
+    bottom: 0px !important;
+    left:28vw !important;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     /* font-size: 11px; */
     opacity: 1;
     color: #404040 !important;
@@ -498,10 +562,17 @@ textarea:focus ~ .floating-label-discribes{
 display: contents;
 }
 
+<<<<<<< HEAD
 .vali{
   left: -10vw;
   top: 0vh;
  
+=======
+.vali-register{
+  left: 8vw;
+  top: 0vh;
+ font-size: 0.9rem;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     position: relative;
     display: none;
     margin-bottom: -10vh;
@@ -512,7 +583,11 @@ display: contents;
    height: fit-content;
    height: -moz-fit-content;
 }
+<<<<<<< HEAD
 .valiWhole{
+=======
+.valiWhole-register{
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
   float: right;
   width: fit-content;
   width: -moz-fit-content;

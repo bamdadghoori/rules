@@ -2,7 +2,10 @@
  * Skin: Blue
  * ----------
  */
+<<<<<<< HEAD
  
+=======
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
 .skin-blue .main-header .navbar {
   background-color: #3c8dbc;
 }
@@ -118,10 +121,13 @@
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 2px;
 }
+<<<<<<< HEAD
 .skin-blue .sidebar-form input[type="text"]{
   margin-top: -0.2vh;
   height: 36px;
  }
+=======
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
 .skin-blue .sidebar-form input[type="text"]:focus,
 .skin-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
   background-color: #fff;

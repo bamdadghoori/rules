@@ -1,26 +1,17 @@
-//split price
 $(document).ready(function(){
 // console.log($("td:nth-child(4)").get(0))
-// var arT=$("td:nth-child(4)").map(function(){
-//     return $.trim($(this).text());
+var arT=$("td:nth-child(4)").map(function(){
+    return $.trim($(this).text());
 
-// }).get();
+}).get();
   
 
-// console.log(arT)
+console.log(arT)
 
-$("#my-table td:nth-child(4)").each(function(){
+$("td:nth-child(4)").each(function(){
     $(this).text($(this).text().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 })
-$("#membership-price").blur(function(){
-    $(this).val($(this).val().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
-})
 
-
-// var arMembershipPrice=$("td:nth-child(4)").map(function(){
-//     return $.trim($(this).text());
-
-// }).get();
     $(".blur").blur(function(){
         if(!$(this).val()){
         $(this).next().removeClass("blurLabel");
@@ -30,35 +21,7 @@ $("#membership-price").blur(function(){
      }
      
     })
-    $(".blur-downloads").blur(function(){
-        if(!$(this).val()){
-        $(this).next().removeClass("blurLabel-downloads");
-     }
-     else{
-         $(this).next().addClass("blurLabel-downloads");
-     }
-     
-    })
-    $(".blur-membership-price").blur(function(){
-        if(!$(this).val()){
-        $(this).next().removeClass("blurLabel-membership-price");
-     }
-     else{
-         $(this).next().addClass("blurLabel-membership-price");
-     }
-     
-    })
-    $("#membership-type").focus(function(){
-       $(".floating-label-membership-type").css("display","block")
-    })
-    $("#membership-type").blur(function(){
-        if($("#membership-type-option").is(":selected")){
-            $(".floating-label-membership-type").css("display","none")
-        }
-        else{
-            $(".floating-label-membership-type").css("display","block")
-        }
-    })
+    
     $(".nav-link").click(function()
   {
  $(".nav-link").removeClass("active");
@@ -66,51 +29,31 @@ $("#membership-price").blur(function(){
   
 })
 
-   $("#regist-rules").click(function(e){
-       var reNum=/^[-,0-9 ]+$/;
-       var num=$("#membership-price").val();
-  var reDate = /^\d{4}\/\d{2}\/\d{2}$/ ;
-  var date=$("#membership-date").val();
-       if(!$("#membership-date").val()||!$("#downloads").val()||!$("#membership-price").val()){
-           e.preventDefault();
-           $("html,body").animate({scrollTop:0},500)
-              $(".vali").css("display","block")
-              $(".valiWhole").text("لطفاً فیلد های ستاره دار را پر کنید")
-       }
-      else if(!$("#monthly").is(":checked")&&!$("#yearly").is(":checked")){
-        e.preventDefault();
-        $("html,body").animate({scrollTop:0},500)
-           $(".vali").css("display","block")
-           $(".valiWhole").text("لطفاً فیلد های ستاره دار را پر کنید")
-       }
-       else if(!$("#active").is(":checked")&&!$("#non-active").is(":checked")){
-        e.preventDefault();
-        $("html,body").animate({scrollTop:0},500)
-           $(".vali").css("display","block")
-           $(".valiWhole").text("لطفاً فیلد های ستاره دار را پر کنید")
-       }
-       else if($("#membership-type-option").is(":selected")){
-        e.preventDefault();
-        $("html,body").animate({scrollTop:0},500)
-           $(".vali").css("display","block")
-           $(".valiWhole").text("نوع عضویت نا معتبر است")
-       }
-       else if(reDate.test(date)==false){
-        e.preventDefault();
-        $("html,body").animate({scrollTop:0})
-        $(".vali").css("display","block")
-        $(".valiWhole").text("تاریخ عضویت صحیح نیست")
-      
-       
-      }
-      else if (reNum.test(num)==false){
-        e.preventDefault();
-        $("html,body").animate({scrollTop:0})
-        $(".vali").css("display","block")
-        $(".valiWhole").text("مبلغ عضویت را عدد وارد کنید")
-      }
-   })
-  
+    $('.buttonLoc').click(function(e){
+        var reMobile=/^0{1}(?:[0-9] ?){6,14}[0-9]$/;
+        var mobile=$("#mobile").val();
+        // var userName=$("#userName").val();
+        // var reName = /^([^0-9]*)$/;
+        if(!$("#mobile").val()||!$("#password").val()){
+            e.preventDefault();
+            $(".vali").css("display","block")
+            $(".valiWhole").text("لطفا فیلد های ستاره دار را پر کنید")
+        }
+        else if(reMobile.test(mobile)==false||mobile.length!=11){
+            
+            e.preventDefault();
+            $(".vali").css("display","block")
+            $(".valiWhole").text("شماره تلفن همراه صحیح نیست")
+            $("html,body").animate({scrollTop:0})
+          }
+         else if($("#password").val().length<8){
+            e.preventDefault();
+            $(".vali").css("display","block")
+            $(".valiWhole").text("رمز عبور حداقل باید 8 رقم باشد")
+            $("html,body").animate({scrollTop:0})
+         }
+        
+})
 
 function sortTableByColumn(table, column, asc = true) {
     const dirModifier = asc ? 1 : -1;

@@ -40,12 +40,25 @@
     background-color: #23272c !important;
     color: white !important;
   }
+<<<<<<< HEAD:assets/css/rules/main.css
   
+=======
+  .navbar-custom-menu > .navbar-nav > .dropdown > a{
+    color: white !important;
+  }
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32:css/rules/main.css
   .wrapper .navbar-custom-menu .nav{
     float: left;
     /* margin-top: -3vh; */
   }
+<<<<<<< HEAD:assets/css/rules/main.css
  
+=======
+  .nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus{
+    background-color: #ffff00;
+    color: #23272c !important;
+  }
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32:css/rules/main.css
   .user-body .row .text-center{
     left: unset;
   }
@@ -53,7 +66,11 @@
     color: #fff;
   }
   .main-footer{
+<<<<<<< HEAD:assets/css/rules/main.css
     /* margin-top: 10vh; */
+=======
+    margin-top: 10vh;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32:css/rules/main.css
   }
   .close-aside{
    position: relative;
@@ -95,7 +112,11 @@
   .buttons{
     top: 5vh;
     position: relative;
+<<<<<<< HEAD:assets/css/rules/main.css
     right: 7.5vw;
+=======
+    right: 6vw;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32:css/rules/main.css
     /* width: 50vw; */
     float: right;
     margin-bottom: 10vh;
@@ -172,7 +193,11 @@ display: flex;
     margin-top:10vh;
     /* overflow: scroll; */
     width: 60vw;
+<<<<<<< HEAD:assets/css/rules/main.css
     right: 7.5vw;
+=======
+    right: 28vw;
+>>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32:css/rules/main.css
     position: relative;
    
   }
