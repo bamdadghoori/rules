@@ -40,25 +40,12 @@
     background-color: #23272c !important;
     color: white !important;
   }
-<<<<<<< HEAD:assets/css/rules/main.css
   
-=======
-  .navbar-custom-menu > .navbar-nav > .dropdown > a{
-    color: white !important;
-  }
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32:css/rules/main.css
   .wrapper .navbar-custom-menu .nav{
     float: left;
     /* margin-top: -3vh; */
   }
-<<<<<<< HEAD:assets/css/rules/main.css
  
-=======
-  .nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus{
-    background-color: #ffff00;
-    color: #23272c !important;
-  }
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32:css/rules/main.css
   .user-body .row .text-center{
     left: unset;
   }
@@ -66,11 +53,7 @@
     color: #fff;
   }
   .main-footer{
-<<<<<<< HEAD:assets/css/rules/main.css
     /* margin-top: 10vh; */
-=======
-    margin-top: 10vh;
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32:css/rules/main.css
   }
   .close-aside{
    position: relative;
@@ -112,11 +95,7 @@
   .buttons{
     top: 5vh;
     position: relative;
-<<<<<<< HEAD:assets/css/rules/main.css
     right: 7.5vw;
-=======
-    right: 6vw;
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32:css/rules/main.css
     /* width: 50vw; */
     float: right;
     margin-bottom: 10vh;
@@ -193,11 +172,7 @@ display: flex;
     margin-top:10vh;
     /* overflow: scroll; */
     width: 60vw;
-<<<<<<< HEAD:assets/css/rules/main.css
     right: 7.5vw;
-=======
-    right: 28vw;
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32:css/rules/main.css
     position: relative;
    
   }
@@ -638,7 +613,9 @@ input:focus ~ .floating-label {
 .table-sortable .th-sort-asc ::after {
   margin-left: 5px;
 } */
-
+.bg-modal{
+  background-color: rgba(0,0,0,0.3);
+}
 .table-sortable .th-sort-asc,
 .table-sortable .th-sort-desc {}
  @media(max-width:600px) {
@@ -673,12 +650,13 @@ input:focus ~ .floating-label {
   .table-loc{
     overflow: scroll;
     direction: rtl;
-    margin-top: 40vh;
+    margin-top: 30vh;
+    width: 84vw;
   }
-  .buttons{
-    top:13vh;
-    right:-59vw;
+  .main-footer{
+    text-align: center;
   }
+  
   .div-second-search-box{
     display: flex;
     margin-right: unset;
@@ -690,9 +668,8 @@ input:focus ~ .floating-label {
   }
   .vali-table{
     
-   width: 40vw;
-    right: -43vw;
-    top: 46vh;
+    right: 12vw;
+    top: 29vh;
   }
   .floating-label{
     left:50vw;
@@ -720,12 +697,22 @@ input:focus ~ .floating-label {
 }
 }
 @media screen and (min-width:530px) and (max-width:600px){
-.buttons{
-  right:-34vw;
-}
+
 .table-loc{
-  right:6vw;
+  right:1vw;
+  overflow-x: scroll;
+  width: 93vw;
 }
+.main-footer {
+  margin-top: -7vh;
+}
+.second-searchbox input{
+  z-index: 2;
+}
+.vali-table{
+  top:24vh;
+}
+
 }
 /* responsive miani */
 @media screen  and (min-width:601px) and (max-width:700px){
@@ -783,8 +770,11 @@ input:focus ~ .floating-label {
     top:20vh;
     left:32vw;
   }
+  .vali-table{
+    top:28vh;
+  }
   .div-second-search-box {
-    margin-right: -10vw;
+    margin-right: -12vw;
     top: 6vh;
     display: flex;
 }
@@ -794,10 +784,11 @@ input:focus ~ .floating-label {
 }
 .buttons{
   margin-bottom: 12vh;
+  right:13vw;
 }
 .second-searchbox input{
   font-size: 2vh;
-  z-index: 999;
+  z-index: 2;
 }
   .floating-label{
     left:35vw;
@@ -818,7 +809,7 @@ input:focus ~ .floating-label {
     margin-right: -3vw;
 }
 .table-loc{
-  right: 33vw;
+  right: 3vw;
   overflow: scroll;
 }
 }
@@ -848,5 +839,14 @@ input:focus ~ .floating-label {
   }
   .second-searchbox input{
     font-size: 2vh;
+    z-index: 2;
+  }
+  .vali-table{
+    top:24vh;
+  }
+  .table-loc{
+    right: 1vw; 
+      overflow-x: scroll;
+      width: 73vw;
   }
 }

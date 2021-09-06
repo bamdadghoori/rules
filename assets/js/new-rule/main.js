@@ -16,13 +16,13 @@ let options = {
 kamaDatepicker('membership-date', options);
 //modal
 $(".new").click(function(){
-    $("html,body").css({ "background-color": "rgba(0,0,0,0.1)"})
+    $("html,body,.container-fluid").addClass("bg-modal")
     $(".wrapper-new").css("display","flex")
     
   })
   $(".wrapper-new .fa-window-close").click(function(){
     $(this).parent().parent().parent().css("display","none")
-    $("html,body").css({"background-color":"#f5f7fb"})
+    $("html,body,.container-fluid").removeClass("bg-modal")
     
   })
   $("#membership-date").focus(function(){

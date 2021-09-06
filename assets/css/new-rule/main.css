@@ -116,7 +116,6 @@
       font-weight: 600;
       margin-right: 1vw;
   }
-<<<<<<< HEAD
   .activity-radio-group{
     margin-right: unset;
     margin-left: unset;
@@ -134,24 +133,18 @@
 .div-non-active{
   left:0.5vw;
 }
-.discribes textarea{
+.describes textarea{
   width: 30vw;
   z-index: 999;
   border-radius: 5px 5px 5px 5px;
 }
-.discribes{
+.describes{
   margin-top: 4vh;
 }
   input[type=radio]{
       transform: scale(1.5);
   }
   input[type=text],input[type=password],select,input[type=number] {
-=======
-  input[type=radio]{
-      transform: scale(1.5);
-  }
-  input[type=text],input[type=password],select {
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     direction: rtl;
     background-color: #f6f6f6;
     border: none;
@@ -171,25 +164,16 @@
     transition: all 0.5s ease-in-out;
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
-<<<<<<< HEAD
     font-family: yekan;
   }
   input[type=text],input[type=password],select,input[type=number]{
-=======
-  }
-  input[type=text],input[type=password],select{
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     font-size:2.5vh;
     margin-bottom:4vh;
   }
   .buttonLoc-register{
     margin-bottom:0vh !important;
   }
-<<<<<<< HEAD
   input[type=text]:focus,input[type=number]:focus {
-=======
-  input[type=text]:focus {
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     background-color: #fff;
     border-bottom: 2px solid #5fbae9;
   }
@@ -338,7 +322,6 @@ top: 2vh;
 position: absolute;
   
 }
-<<<<<<< HEAD
 .forcible-membership{
   /* content:"*"; */
 color: red;
@@ -363,12 +346,6 @@ position: absolute;
     font-family:yekan;
     font-size: 3vh;
     color: #0d0d0d;
-=======
-.floating-label {
-    font-family:yekan;
-    font-size: 3vh;
-    color: #cccccc;
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     position: absolute;
     pointer-events: none;
     top: 9px;
@@ -390,13 +367,8 @@ input:focus ~ .floating-label {
 }
 .floating-label-downloads {
     font-family:yekan;
-<<<<<<< HEAD
     font-size: 2.5vh;
     color: #0d0d0d;
-=======
-    font-size: 3vh;
-    color: #cccccc;
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     position: absolute;
     pointer-events: none;
     top: 9px;
@@ -417,7 +389,6 @@ input:focus ~ .floating-label-downloads {
     font-family: yekan;
     font-weight: 500;
 }
-<<<<<<< HEAD
 .blurLabel-downloads{
   top: -4vh !important;
   bottom: 0px !important;
@@ -436,16 +407,6 @@ input:focus ~ .floating-label-downloads {
     pointer-events: none;
     top: 9px;
     left: 21vw;
-=======
-.floating-label-membership-price {
-    font-family:yekan;
-    font-size: 3vh;
-    color: #cccccc;
-    position: absolute;
-    pointer-events: none;
-    top: 9px;
-    left: 24vw;
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     width: fit-content;
     transition: all 0.1s ease;
     font-weight: 500;
@@ -454,18 +415,13 @@ input:focus ~ .floating-label-membership-price {
     position: absolute;
     top: -4vh;
     bottom: 0px;
-<<<<<<< HEAD
     left:21vw;
-=======
-    left:24vw;
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     /* font-size: 11px; */
     opacity: 1;
     color: #404040;
     font-family: yekan;
      
 }
-<<<<<<< HEAD
 .blurLabel-membership-price{
   top: -4vh !important;
   bottom: 0px !important;
@@ -483,16 +439,6 @@ input:focus ~ .floating-label-membership-price {
     pointer-events: none;
     top: 9px;
     left:27.5vw;
-=======
-.floating-label-date {
-    font-family:yekan;
-    font-size: 2.5vh;
-    color: #cccccc;
-    position: absolute;
-    pointer-events: none;
-    top: 9px;
-    left:28vw;
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     width: fit-content;
     width: -moz-fit-content;
     transition: all 0.1s ease;
@@ -503,11 +449,10 @@ input:focus ~ .floating-label-membership-price {
     top: -3vh;
     font-family: Yekan;
     font-size: 2.5vh;
-<<<<<<< HEAD
     left: 24.5vw;
     display: none;
   }
-  .floating-label-discribes {
+  .floating-label-describes {
     position: absolute;
     top: 9px;
     font-family: Yekan;
@@ -517,7 +462,16 @@ input:focus ~ .floating-label-membership-price {
     color: #0d0d0d;
     font-weight: 500;
 }
-textarea:focus ~ .floating-label-discribes{
+textarea:focus ~ .floating-label-describes{
+  position: absolute;
+  top: -3.5vh;
+  font-family: Yekan;
+  font-size: 2.5vh;
+  left: 26vw;
+  opacity: 1;
+  color: #0d0d0d;
+}
+.blurLabel-describes{
   position: absolute;
   top: -3.5vh;
   font-family: Yekan;
@@ -530,15 +484,6 @@ textarea:focus ~ .floating-label-discribes{
     top: -4vh !important;
     bottom: 0px !important;
     left:27.5vw !important;
-=======
-    left: 11vw;
-    display: none;
-  }
-  .blurLabel-date{
-    top: -4vh !important;
-    bottom: 0px !important;
-    left:28vw !important;
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     /* font-size: 11px; */
     opacity: 1;
     color: #404040 !important;
@@ -562,17 +507,10 @@ textarea:focus ~ .floating-label-discribes{
 display: contents;
 }
 
-<<<<<<< HEAD
 .vali{
   left: -10vw;
   top: 0vh;
  
-=======
-.vali-register{
-  left: 8vw;
-  top: 0vh;
- font-size: 0.9rem;
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
     position: relative;
     display: none;
     margin-bottom: -10vh;
@@ -583,11 +521,7 @@ display: contents;
    height: fit-content;
    height: -moz-fit-content;
 }
-<<<<<<< HEAD
 .valiWhole{
-=======
-.valiWhole-register{
->>>>>>> 855e5c89eb3e1ddefd6dd3d6638515f2dd95ac32
   float: right;
   width: fit-content;
   width: -moz-fit-content;
@@ -665,7 +599,7 @@ input[name="password"] ~ .blurLabel{
 
 
 /* responsive */
-@media(max-width:600px){
+@media(max-width:530px){
   .floating-label{
     left:50vw;
   }
@@ -673,49 +607,70 @@ input[name="password"] ~ .blurLabel{
     left:50vw;
         top: -3vh;
   }
-  .floating-label-name{
-    left:63vw;
+  .floating-label-downloads{
+    left:50vw;
   }
-  input:focus ~ .floating-label-name{
-    left:63vw;
+  input:focus ~ .floating-label-downloads{
+    left:50vw;
         top: -3vh;
   }
-  .floating-label-family{
-    left:47vw;
+  .blurLabel-downloads{
+    left:50vw !important;
+    top: -3vh !important;
   }
-  input:focus ~ .floating-label-family{
-    left:47vw;
+  .floating-label-membership-price{
+    left:38vw;
+  }
+  input:focus ~ .floating-label-membership-price{
+    left:38vw;
         top: -3vh;
   }
-  .floating-label-email{
-    left:59vw;
+  .blurLabel-membership-price{
+    left:38vw !important;
+    top: -3vh !important;
   }
-  input:focus ~ .floating-label-email{
-    left:59vw;
-        top: -3vh;
+  .floating-label-date{
+    left:61vw;
   }
-  .floating-label-password{
-    left:53vw;
-  }
-  input:focus ~ .floating-label-password{
-    left:53vw;
-        top: -3vh;
-  }
-  .floating-label-password-repeat{
-    left:44vw;
-  }
-  input:focus ~ .floating-label-password-repeat{
-    left:44vw;
-        top: -3vh;
-  }
-  .wrapper{
-    top:17vh
+.blurLabel-date{
+  left:61vw !important;
+  top: -3vh !important;
 }
-.vali-register{
+.forcible-membership,.forcible-activity{
+  left: 24vw;
+  top: 5.5vh;
+}
+.describes textarea{
+  width: 63vw;
+}
+.div-non-active {
+  left: 2vw;
+}
+.floating-label-membership-type{
+  left:51vw;
+}
+.floating-label-describes{
+  left:50vw;
+}
+textarea:focus ~ .floating-label-describes{
+  left:50vw;
+      top: -3vh;
+}
+.blurLabel-describes{
+  left:50vw !important;
+  top: -3vh !important;
+}
+.vali{
   /* position: relative; */
   top:0vh;
-  left: 7vw;
+  left: -16vw;
+  margin-bottom: 3vh !important;
 }
+
+#membership-type{
+  z-index: 2;
+}
+
   body{
     position: relative;
   }
@@ -740,15 +695,19 @@ input[name="password"] ~ .blurLabel{
  .form-check-reg{
    left:-4vh
  }
+ .wrapper-new{
+  top:unset;
+}
 }
 /* responsive miani */
-@media screen  and (min-width:600px) and (max-width:700px){
-  .vali-register{
+@media screen  and (min-width:531px) and (max-width:700px){
+  .vali{
    
-    left:14vw;
+    left:-22vw;
+    margin-bottom: 3vh !important;
   }
-  .wrapper{
-    top:27vh;
+  .wrapper-new{
+    top:unset;
   }
   body{
     position: relative;
@@ -759,36 +718,41 @@ input[name="password"] ~ .blurLabel{
   input:focus ~ .floating-label{
     left:52vw;
   }
-  .floating-label-name{
-    left:56vw;
-  }
-  input:focus ~ .floating-label-name{
-    left:56vw;
-  }
-  .floating-label-family{
-    left:51vw;
-  }
-  input:focus ~ .floating-label-family{
-    left: 51vw;
-  }
-  .floating-label-email{
-    left:55vw;
-  }
-  input:focus ~ .floating-label-email{
-    left:55vw;
-  }
-  .floating-label-password{
-    left:53vw;
-  }
-  input:focus ~ .floating-label-password{
-    left:53vw;
-  }
-  .floating-label-password-repeat{
+  .floating-label-downloads{
     left:50vw;
   }
-  input:focus ~ .floating-label-password-repeat{
+  input:focus ~ .floating-label-downloads{
     left:50vw;
+        top: -3vh;
   }
+  .blurLabel-downloads{
+    left:50vw !important;
+    top:-3vh !important;
+  }
+  .floating-label-membership-price{
+    left:38vw;
+  }
+  input:focus ~ .floating-label-membership-price{
+    left:38vw;
+        top: -3vh;
+  }
+  .blurLabel-membership-price{
+    left:38vw !important;
+    top:-3vh !important;
+  }
+  .floating-label-date{
+    left:60vw;
+  }
+.blurLabel-date{
+  left:60vw !important;
+  top:-3vh !important;
+}
+.floating-label-membership-type{
+  left:50vw;
+}
+.describes textarea{
+  width:63vw;
+}
   input[type=text]{
     font-size: 3vh;
   }
@@ -798,20 +762,16 @@ input[name="password"] ~ .blurLabel{
   .blurLabel{
     left: 52vw !important;
   }
-  #name ~ .blurLabel{
-    left: 56vw !important;
+  .floating-label-describes{
+       top:2px;
+       left:48vw;
   }
-  #family ~ .blurLabel{
-    left: 51vw !important;
+  textarea:focus ~ .floating-label-describes{
+    left:48vw;
   }
-  #email ~ .blurLabel{
-    left: 55vw !important;
-  }
-  input[name="password"] ~ .blurLabel{
-    left: 53vw !important;
-  }
-  #password2-repeat ~ .blurLabel{
-    left: 50vw !important;
+  .blurLabel-describes{
+    left:48vw;
+    top:-3.5vh !important;
   }
   footer{
     margin-top: 28vh;
@@ -819,49 +779,69 @@ input[name="password"] ~ .blurLabel{
   .form-check-input {
     margin-right: -3vw;
 }
+
+.forcible-activity,.forcible-membership{
+  left: 26vw;
+    top: 5vh;
+}
 }
 @media screen and (min-width:701px) and (max-width:992px) {
-  .vali-register{
+  .vali{
     
-    left:14vw;
+    left: -17vw;
+    margin-bottom: 3vh !important;
   }
-  .floating-label{
-    left:35vw;
+  .floating-label-downloads{
+    left:37vw;
   }
-  input:focus ~ .floating-label{
-    left:35vw;
+  input:focus ~ .floating-label-downloads{
+    left:37vw;
+        top: -3vh;
   }
-  .floating-label-name{
-    left:45vw;
+  .blurLabel-downloads{
+    left:37vw !important;
+    top: -3vh !important;
   }
-  input:focus ~ .floating-label-name{
-    left:45vw;
+  .floating-label-membership-price{
+    left:27.5vw;
   }
-  .floating-label-family{
-    left:31vw;
+  input:focus ~ .floating-label-membership-price{
+    left:27.5vw;
+        top: -3vh;
   }
-  input:focus ~ .floating-label-family{
-    left: 31vw;
+  .blurLabel-membership-price{
+    left:27.5vw !important;
+    top: -3vh !important;
   }
-  .floating-label-email{
-    left:41vw;
+  .floating-label-date{
+    left:46vw;
   }
-  input:focus ~ .floating-label-email{
-    left:41vw;
-  }
-  .floating-label-password{
-    left:36vw;
-  }
-  input:focus ~ .floating-label-password{
-    left:36vw;
-  }
-  .floating-label-password-repeat{
-    left:28vw;
-  }
-  input:focus ~ .floating-label-password-repeat{
-    left:28vw;
-  }
-  input[type=text]{
+.blurLabel-date{
+  left:46vw !important;
+}
+.floating-label-membership-type{
+  left:38vw;
+}
+.forcible-membership,.forcible-activity{
+  left: 20vw;
+  top: 4vh;
+}
+.describes textarea{
+  width: 48vw;
+}
+.floating-label-describes{
+left: 36vw;
+top:2px;
+
+}
+textarea:focus ~ .floating-label-describes{
+  left: 36vw;
+}  
+.blurLabel-describes{
+  left: 36vw !important;
+  top:-3.5vh !important;
+}
+input[type=text]{
     font-size: 3vh;
   }
   input[type=password] {
@@ -888,16 +868,22 @@ input[name="password"] ~ .blurLabel{
   .form-check-input {
     margin-right: -3vw;
 }
+.forcible-membership{
+
+}
+.forcible-activity{
+  
+}
 }
 @media screen and (min-width:993px) and (max-width:1100px){
   input[type=submit]{
     margin-top: 2vh;
   }
   input[type=text]{
-    font-size: 3vh;
+    font-size: 2vh;
   }
-  input[type=password] {
-    font-size: 3vh;
+  input[type=number] {
+    font-size: 2vh;
 }
   /* .floating-label{
     left:26vw;
@@ -905,9 +891,77 @@ input[name="password"] ~ .blurLabel{
   /* input:focus ~ .floating-label{
     left:27vw;
   } */
+  .floating-label-downloads{
+    left:27vw;
+    font-size: 2vh;
+  }
+  input:focus ~ .floating-label-downloads{
+    left:27vw;
+        top: -3vh;
+        
+  }
+  .blurLabel-downloads{
+    left:27vw !important;
+    top:-3vh !important;
+  }
+  .floating-label-membership-price{
+    left:19vw;
+    font-size: 2vh;
+  }
+  select{
+    font-size: 2vh;
+  }
+  input:focus ~ .floating-label-membership-price{
+    left:19vw;
+        top: -3vh;
+  }
+  .blurLabel-membership-price{
+    left:19vw !important;
+    top:-3vh !important
+  }
+  .floating-label-date{
+    left: 32vw;
+    font-size: 2vh
+  
+  }
+.blurLabel-date{
+  left:32vw !important;
+  top:-3vh !important;
+}
+.floating-label-membership-type{
+  left:28vw;
+  font-size: 2vh;
+}
   .blurLabel{
     left: 27vw;
   }
+  .membership-radio-span,.activity-radio-span{
+    font-size: 1.5vh;
+  }
+   .floating-label-describes{
+       font-size: 2vh;
+       top:2px;
+  }
+  textarea:focus ~ .floating-label-describes{
+    font-size: 2vh;
+  }
+  .blurLabel-describes{
+    font-size: 2vh;
+    top:-3.5vh;
+  }
+  .forcible-membership{
+    top: -0.5vh;
+  }
+  .forcible-activity{
+    top: -0.5vh;
+  }
+  .describes textarea{
+    width: 36vw;
+  }
+  .vali{
+    margin-bottom: 3vh !important;
+  }
+ 
 }
 /* responsive gooshi haye kheili koochik */
 @media screen and (min-width:280px) and (max-width:345px){

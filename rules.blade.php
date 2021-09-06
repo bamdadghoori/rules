@@ -90,9 +90,9 @@
      </div>
      <div class="forcible-activity">*</div>
    </div>
-   <div style="position: relative;" class="fadeIn second discribes">
-    <textarea class="blur-discribes" id="discribes" name="discribes"></textarea>
-            <label class="floating-label-discribes">توضیحات</label>
+   <div style="position: relative;" class="fadeIn second describes">
+    <textarea class="blur-describes" id="describes" name="describes"></textarea>
+            <label class="floating-label-describes">توضیحات</label>
             <!-- <div class="forcible">*</div> -->
         </div>
  <!-- end of modal -->
